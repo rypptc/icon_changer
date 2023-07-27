@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.header {
+  text-align: center;
+  color: #333;
+}
+
+.instructions {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+#iconInput {
+  flex: 1;
+  padding: 8px;
+  font-size: 14px;
+}
+
+#changeIconBtn {
+  padding: 8px 15px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#changeIconBtn:hover {
+  background-color: #0056b3;
+}
+
